@@ -17,6 +17,15 @@ Use [GitHub Issues](https://github.com/ender554/wincon-support/issues) to:
 
 Before opening an issue, search the existing issues for the same topic.
 
+## Contact WinCon privately
+
+Email [winconsupport@proton.me](mailto:winconsupport@proton.me) for privacy
+requests or support details that should not be posted publicly.
+
+Never send passwords, recovery phrases, authentication codes, or other account
+secrets. Remove player identity and raw game-event payloads before emailing a
+report.
+
 ## Useful report details
 
 Include:
@@ -39,8 +48,8 @@ Remove or obscure:
 - raw game-event payloads;
 - screenshots containing player identity.
 
-Use the dedicated WinCon support/privacy email for sensitive reports after
-that address is published.
+Use [winconsupport@proton.me](mailto:winconsupport@proton.me) when a report
+should be handled privately.
 
 ## Source repository
 
