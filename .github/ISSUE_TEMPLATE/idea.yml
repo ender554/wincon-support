@@ -1,0 +1,31 @@
+name: An idea
+description: Something WinCon could do or do better.
+title: "Idea: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This post is public: please leave out player names, BattleTags and anything private.
+  - type: dropdown
+    id: place
+    attributes:
+      label: For which part?
+      options:
+        - "Website: team selector"
+        - "Website: map rates"
+        - App (desktop window)
+        - In-game overlay
+        - Something new
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: What were you trying to do?
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+    validations:
+      required: true

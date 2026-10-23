@@ -8,7 +8,11 @@ testing has not started yet.
 
 ## Request support or share feedback
 
-Use [GitHub Issues](https://github.com/ender554/wincon-support/issues) to:
+No GitHub account? Use the [feedback page](https://owcoach.vercel.app/feedback) on
+WinCon's website: it posts your feedback here for you.
+
+With a GitHub account, [open an issue](https://github.com/ender554/wincon-support/issues/new/choose)
+(feedback, a problem, or an idea) to:
 
 - report a reproducible app problem;
 - report an incorrect hero, map, mode, or roster interpretation;
