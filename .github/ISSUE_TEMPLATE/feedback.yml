@@ -1,0 +1,48 @@
+name: Feedback
+description: Tell us what helped, what didn't, and what you'd change.
+title: "Feedback: "
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time! This post is public: please leave out player names, BattleTags and anything private. For something private, email winconsupport@proton.me.
+  - type: dropdown
+    id: place
+    attributes:
+      label: Where?
+      options:
+        - "Website: team selector"
+        - "Website: map rates"
+        - App (desktop window)
+        - In-game overlay
+        - Something else
+    validations:
+      required: true
+  - type: dropdown
+    id: usefulness
+    attributes:
+      label: How useful was it?
+      options:
+        - 5, very useful
+        - "4"
+        - "3"
+        - "2"
+        - 1, not useful
+  - type: textarea
+    id: tried
+    attributes:
+      label: What were you trying to do?
+      description: Your team, map and rank help us see what you saw.
+  - type: textarea
+    id: worked
+    attributes:
+      label: What worked well?
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What was wrong or confusing?
+  - type: textarea
+    id: change
+    attributes:
+      label: The one change you'd make

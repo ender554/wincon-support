@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: No GitHub account? Use the feedback page
+    url: https://owcoach.vercel.app/feedback
+    about: The same feedback, sent from WinCon's website. It's posted here for you.
+  - name: Something private
+    url: mailto:winconsupport@proton.me
+    about: Privacy requests, or anything that shouldn't be public.

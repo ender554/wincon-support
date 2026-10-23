@@ -1,0 +1,46 @@
+name: Something's wrong
+description: A problem with WinCon, or a wrong hero, map, mode or roster reading.
+title: "Problem: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This post is public: remove player names, BattleTags, account details and raw game data, and crop them out of screenshots. For something private, email winconsupport@proton.me.
+  - type: dropdown
+    id: place
+    attributes:
+      label: Where?
+      options:
+        - "Website: team selector"
+        - "Website: map rates"
+        - App (desktop window)
+        - In-game overlay
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we see it happen?
+      description: Steps, if you know them.
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: The WinCon app version and the Overwolf version, if it's the app.
+  - type: input
+    id: match
+    attributes:
+      label: The match
+      description: Mode, team format (5v5 or 6v6), map, and when in the match it happened.
